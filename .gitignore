@@ -1,0 +1,45 @@
+
+# --- Python / Flask / VLEAD Defaults ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.env
+secrets.json
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs / Caches ---
+*.log
+logs/
+*.sqlite3
+*.db
+.pytest_cache/
+.cache/
+coverage.xml
+htmlcov/
+
+# --- RJVB / Notebooks ---
+*.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+
+# --- Render / Deploy ---
+*.render-build/
